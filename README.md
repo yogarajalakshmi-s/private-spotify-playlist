@@ -12,10 +12,10 @@ The date will be given as input and the top 100 songs from that date will be cre
   - Stored the spotify client ID, client secret, Redirect URI in environment variables.
 
 **2. Get the songs from Billboard**  
-  - Scraped html data using BeautifulSoup from Billboard for the input date
+  - Scraped html data using BeautifulSoup from Billboard for the date given as input.
 
 **3. Search through Spotify to get the song URI**  
-  - Created Spotipy object with the required credentials.
+  - Created Spotify object with the required credentials.
   - Searched the songs through the URI, skipped if the song doesn't exist and stored them all.
 
 **4. Creating playlist**  
