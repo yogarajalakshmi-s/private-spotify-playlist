@@ -1,9 +1,9 @@
 # Spotify Playlist
 
 Created a private Spotify playlist by scraping data from billboard.
-The date will be given as input and the top 100 songs from that date will be created as a private playlist in our Spotify account
+The date will be taken as input and the top 100 songs from that date will be created as a private playlist in our Spotify account.
 
-**Tech Stack** - Python, BeautifulSoup, Spotipy 
+**Tech Stack** - Python, BeautifulSoup, Spotipy API
 
 **1. Created a Spotify Developer Account**  
   - Signed up on Spotify Developers
